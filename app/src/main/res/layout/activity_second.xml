@@ -9,10 +9,11 @@
     tools:context=".SecondActivity">
 
     <EditText
-        android:id="@+id/etNome"
+        android:id="@+id/etDegree"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Kelvin"
+        android:inputType="numberDecimal"
+        android:hint="Digite a temperatura em graus Celsius"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="64dp"/>
 
@@ -21,14 +22,14 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_alignParentStart="true"
-        android:layout_below="@id/etNome">
+        android:layout_below="@id/etDegree">
 
     <Button
         android:id="@+id/btNext"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="trocaTela"
-        android:text="ENTRAR"/>
+        android:text="CALCULAR"/>
 
     </LinearLayout>
 </RelativeLayout>

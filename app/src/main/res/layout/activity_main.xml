@@ -12,9 +12,11 @@
         android:id="@+id/tvNome"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Olá fulano, seja bem-vindo!"
-        android:paddingTop="32dp"
-        android:paddingBottom="64dp"
+        android:textAlignment="center"
+        android:text="0 ºF"
+        android:textSize="50dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="64dp"
         />
 
     <LinearLayout
